@@ -19,6 +19,11 @@ public class Jarra {//variables de instancia
 	public int cantidad(){
 		return this.cantidad;
 	}
+	
+	public void llena(){
+		
+		this.cantidad = this.capacidad;
+	}
         
 	
         public void metodoComunitario(){ 
